@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex</title>
+	<style type="text/css">
+		.container {
+			width: 800px;
+			height: 300px;
+			border: 1px solid #000;
+			background-color: skyblue;
+
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		.item {
+			width: 200px;
+			height: 100px;
+		}
+
+		.item:nth-child(1) {
+			background-color: red;
+		}
+
+		.item:nth-child(2) {
+			background-color: blue;
+		}
+
+		.item:nth-child(3) {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+	</div>
+
+</body>
+</html>
